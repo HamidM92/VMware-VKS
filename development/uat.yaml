@@ -29,4 +29,4 @@ spec:
       - name: vmClass
         value: best-effort-xsmall
       - name: storageClass
-        value: vsan-tanzu
+        value: single-zone
