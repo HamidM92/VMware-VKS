@@ -11,7 +11,7 @@ spec:
       cidrBlocks: ["192.168.0.0/16"]
     serviceDomain: "cluster.local"
   topology:
-    class: tanzukubernetescluster
+    class: builtin-generic-v3.1.0
     version: v1.29.15---vmware.1-fips-vkr.2
     controlPlane:
       replicas: 3
